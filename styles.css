@@ -1,0 +1,157 @@
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Medium-Blue: hsl(214, 19%, 29%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--Very-Dark-Blue);
+}
+
+.star-image {
+  background-color: var(--Medium-Blue);
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: block;
+  width: 375px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 2rem;
+  padding: 2rem;
+  background-color: var(--Dark-Blue);
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  /* padding: 20px; */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: var(--Light-Grey);
+  background-color: var(--Medium-Blue);
+}
+
+.btn:hover {
+  background-color: var(--Light-Grey);
+  color: var(--White);
+}
+.btn:active {
+  background-color: var(--Orange);
+}
+
+.title {
+  color: var(--White);
+}
+
+.description,
+p {
+  color: var(--Light-Grey);
+}
+
+.submit {
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: var(--Orange);
+  border: none;
+  color: var(--White);
+}
+
+.submit:active {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+/*    Thank you card    */
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.thanks_pic {
+  height: 100px;
+  width: 130px;
+  padding: 15px;
+}
+
+.chip {
+  background-color: var(--Medium-Blue);
+  border-radius: 25px;
+  padding: 5px 20px;
+}
+
+.selected {
+  padding: 0;
+  margin: 0;
+  color: var(--Orange);
+}
+
+.thanks_description {
+  text-align: center;
+}
+
+.rate-again {
+  cursor: pointer;
+  width: 40%;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: var(--Orange);
+  border: none;
+  color: var(--White);
+}
+.rate-again:active {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
