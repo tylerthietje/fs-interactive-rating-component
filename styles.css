@@ -151,6 +151,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--Light-Grey);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
